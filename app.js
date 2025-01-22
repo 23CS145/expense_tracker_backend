@@ -4,7 +4,7 @@ const app=express()
 app.use(express.json()); //pre-defined middle-ware
 const { v4 : uuidv4 } =require( 'uuid');
 
-mongoose.connect("mongodb://localhost:27017/expenses").then(()=>{
+mongoose.connect("mongodb+srv://saranya:sara123@cluster21.tubv8.mongodb.net/expenses").then(()=>{
     console.log("Connected to MongoDB")
 })
 const expenseSchema=new mongoose.Schema({
