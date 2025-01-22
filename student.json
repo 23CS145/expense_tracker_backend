@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Saranyadevi",
+    "roll_no": 19,
+    "dept": "CSE-C",
+    "DOB": "2005-08-08"
+  },
+  {
+    "name": "Sherrlyn",
+    "roll_no": 19,
+    "dept": "CSE-C",
+    "DOB": "2005-05-31"
+  },
+  {
+    "name": "Sudha",
+    "roll_no": 19,
+    "dept": "CSE-C",
+    "DOB": "2005-09-14"
+  },
+  {
+    "name": "Subha",
+    "age": 21,
+    "dept": "CSE"
+  },
+  {
+    "name": "Visalani",
+    "age": 18,
+    "dept": "CSE"
+  },
+  {
+    "name": "Shree",
+    "age": 20,
+    "dept": "CSE"
+  }
+]
