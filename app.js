@@ -6,7 +6,7 @@ const { v4: uuidv4 } =require("uuid");
 const bcrypt=require('bcrypt')
 const jwt=require('jsonwebtoken');
 const cors=require('cors')
-const authMiddleware = require("./middleware/auth");
+
 
 app.use(express.json());
 app.use(cors())
@@ -31,7 +31,7 @@ const userSchema=new mongoose.Schema({
 })
 const User= mongoose.model('User',userSchema)
 
-app.get("/api/expenses",authMiddleware,async (req, res) => {
+app.get("/api/expenses",async (req, res) => {
   console.log(req.user)
   try{
   const expenses = await Expense.find()
